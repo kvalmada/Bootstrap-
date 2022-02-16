@@ -1,9 +1,11 @@
+
+
 .fotoLogo {
     width: 50px;
 }
 
-.fotoLogo:hover {
-    transform: scale(3);
+.productosDestacados1:hover {
+    transform: scale(2);
 }
 
 
@@ -59,6 +61,7 @@
 }
 
 .productosDestacados {
+    margin: 40px;
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -79,3 +82,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
