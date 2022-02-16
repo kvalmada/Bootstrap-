@@ -6,19 +6,6 @@
     transform: scale(3);
 }
 
-.fotoSet {
-    width: 500px;
-}
-
-.fotoCanula {
-    width: 500px;
-}
-
-.carrouselContainer {
-    display: flex;
-    justify-content: center;
-    padding-top: 150px;
-}
 
 .txtCarro {
     color: black;
@@ -53,5 +40,16 @@
 
 .logoIgma {
     display: flex;
-    justify-content: center;;
+    justify-content: center;
+}
+
+.carousel-item {
+    width: 500px;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding-top: 50px;
 }
