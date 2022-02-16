@@ -1,0 +1,48 @@
+.fotoLogo {
+    width: 50px;
+}
+
+.fotoSet {
+    width: 500px;
+}
+
+.fotoCanula {
+    width: 500px;
+}
+
+.carrouselContainer {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.txtCarro {
+    color: black;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+}
+
+.logoIg {
+    width: 50px;
+}
+
+
+.footer {
+    padding-top: 100px;
+}
+
+.iconoIg {
+    padding-top: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.iFrame {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
