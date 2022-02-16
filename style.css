@@ -44,7 +44,7 @@
 }
 
 .carousel-item {
-    width: 500px;
+    width: 800px;
 }
 
 .carouselContainer {
@@ -52,4 +52,30 @@
     justify-content: center;
     margin: 20px;
     padding-top: 50px;
+}
+
+.productosDestacados1 {
+    width: 150px;
+}
+
+.productosDestacados {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pdTitulo {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.h4PD {
+    font-size: 15px;
+    
+}
+
+.descripcionPD {
+    display: flex;
+    justify-content: space-between;
 }
