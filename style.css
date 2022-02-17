@@ -6,6 +6,8 @@
 
 .productosDestacados1:hover {
     transform: scale(2);
+    transition-property: all;
+    transition-duration: 1.0s;
 }
 
 
@@ -45,16 +47,18 @@
     justify-content: center;
 }
 
-.carousel-item {
-    width: 800px;
+
+.pdTitulo {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
-.carouselContainer {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    padding-top: 50px;
+.carousel-item{
+    height: 600px;
 }
+
 
 .productosDestacados1 {
     width: 150px;
@@ -70,7 +74,7 @@
 .pdTitulo {
     padding-top: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 .h4PD {
@@ -88,3 +92,53 @@
     justify-content: space-between;
 }
 
+.preFin {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.compraCon {
+    display: flex;
+    justify-content: end;
+}
+
+.pagaComo {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.sticky { 
+    position: sticky;
+    top: 0;
+    
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
+}
+
+.footerTargets {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pdTitulo:hover {
+    transform: translate(450px);
+    transition: all 1.5s;
+}
+
+.pdSize {
+    font-size: 25px;
+}
+
+.preFinBC {
+    background-color: rgba(236, 235, 235, 0.842);
+}
