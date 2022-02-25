@@ -1,0 +1,48 @@
+.carousel-item{
+    height: 600px;
+}
+
+.productosDestacados1 {
+    width: 150px;
+}
+.productosDestacados {
+    margin: 40px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.h4PD {
+    font-size: 15px;
+    
+}
+.descripcionPD {
+    display: flex;
+    justify-content: space-between;
+}
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pdTitulo:hover {
+    transform: translate(490px);
+    transition: all 1.5s;
+}
+
+.pdTitulo {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pdTitulo {
+    text-decoration: underline;
+}
+
+.pdSize {
+    font-size: 25px;
+}
+

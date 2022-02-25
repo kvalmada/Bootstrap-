@@ -1,0 +1,36 @@
+.preFin {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.compraCon {
+    display: flex;
+    justify-content: end;
+}
+.pagaComo {
+    display: flex;
+    justify-content: center;
+}
+.banner {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.sticky { 
+    position: sticky;
+    top: 0;
+    
+}
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
+}
+.footerTargets {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.preFinBC {
+    background-color: rgba(236, 235, 235, 0.842);
+}
