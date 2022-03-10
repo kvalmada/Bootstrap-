@@ -1,0 +1,15 @@
+$textos: (
+    txtCarro: black,
+    pdSize: 25px, 
+    decoration: none,
+    )
+
+    $logo (
+        display: flex,
+        justify-content: center,
+    )
+  
+    $sticky (
+        position: sticky,
+        top: 0,
+    )
