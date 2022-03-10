@@ -1,0 +1,19 @@
+@mixin PropsCompra {
+    display: flex;
+  justify-content: end;
+}
+
+.compraCon {
+    @include PropsCompra;
+}
+
+@mixin footer { 
+    padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@mixin txtColor($color) {
+    background-color: $color;
+}
